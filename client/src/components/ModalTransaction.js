@@ -160,6 +160,7 @@ export default function ModalTransaction({
               id="inputValue"
               type="number"
               min="0"
+              step="0.01"
               value={currentValue}
               onChange={handleValueChange}
             />
